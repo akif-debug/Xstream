@@ -1,0 +1,36 @@
+@import "inside-sass/variables";
+@import "inside-sass/media";
+@import "inside-sass/home";
+@import "inside-sass/parallax";
+//font-faces==============================================
+@font-face {
+	src: url(../font@face/RubikMonoOne-Regular.ttf);
+	font-family: Rubik;
+}
+@font-face {
+	src: url(../font@face/SherlockHolmes-d93Bl.ttf);
+	font-family: Holmes;
+}
+@font-face {
+	src: url(../font@face/Robus-BWqOd.otf);
+	font-family: Dostyle;
+}
+@font-face {
+	src: url(font@face/Limelight-Regular.ttf);
+	font-family: Lime;
+}
+@font-face {
+	font-family: Targett;
+	src: url(../font@face/targett/TarrgetExpandedItalic-3EjZ.otf);
+}
+//property-for-all========================================
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+*::selection {
+	background: rgba(0, 0, 0, .6);
+	color: $white;
+}

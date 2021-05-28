@@ -1,0 +1,13 @@
+//navbar.
+////////
+@mixin respond($breakpoint) {
+	@if $breakpoint == sm-phone {
+		@media (max-width: 399px) { @content };
+	}
+	@if $breakpoint == phone {
+		@media (max-width: 900px) and (min-width: 400px) { @content };
+	}
+	@if $breakpoint == tab {
+		@media (max-width: 1200px) and (min-width: 900px) { @content };
+	}
+}
