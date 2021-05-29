@@ -130,6 +130,9 @@ navbar-after-effect-end===========*/
   position: relative;
   background-position: top;
   background-size: cover; }
+  @media (max-width: 399px) {
+    #hero {
+      height: 50vh; } }
   #hero div {
     top: 43%;
     left: 50%;
@@ -162,6 +165,33 @@ navbar-after-effect-end===========*/
       @media (max-width: 399px) {
         #hero div h2 {
           font-size: 2rem; } }
+
+#hero-2 {
+  background: url(../img/our-top-2.jpg) fixed center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover; }
+  @media (max-width: 399px) {
+    #hero-2 {
+      height: 50vh; } }
+
+#hero-3 {
+  background: url(../img/our-top-3.jpg) fixed center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover; }
+  @media (max-width: 399px) {
+    #hero-3 {
+      height: 50vh; } }
+
+#hero-4 {
+  background: url(../img/our-top-4.jpg) fixed center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover; }
+  @media (max-width: 399px) {
+    #hero-4 {
+      height: 50vh; } }
 
 @font-face {
   src: url(../font@face/RubikMonoOne-Regular.ttf);
