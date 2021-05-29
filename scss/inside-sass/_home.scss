@@ -142,12 +142,15 @@ navbar-after-effect-end===========*/
 //hero-section
 //////////////
 #hero {
-	background: url(../img/our-top-1-2.jpg) ;
+	background: url(../img/our-top-1-2.jpg);
 	height: 100vh;
 	width: auto;
 	position: relative;
   	background-position: top;
   	background-size: cover;
+  	@include respond(sm-phone) {
+  		height: 50vh;
+  	}
   	div {
   		top: 43%;
 		left: 50%;
@@ -208,21 +211,30 @@ navbar-after-effect-end===========*/
   		// }
   	}
 }
-// #hero-2 {
-// 	background: url(../img/our-top-2.jpg) fixed center;
-// 	height: 100vh;
-// 	width: 100%;
-// 	background-size: cover;
-// }
-// #hero-3 {
-// 	background: url(../img/our-top-3.jpg) fixed center;
-// 	height: 100vh;
-// 	width: 100%;
-// 	background-size: cover;
-// }
-// #hero-4 {
-// 	background: url(../img/our-top-4.jpg) fixed center;
-// 	height: 100vh;
-// 	width: 100%;
-// 	background-size: cover;
-// }
+#hero-2 {
+	background: url(../img/our-top-2.jpg) fixed center;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	@include respond(sm-phone) {
+  		height: 50vh;
+  	}
+}
+#hero-3 {
+	background: url(../img/our-top-3.jpg) fixed center;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	@include respond(sm-phone) {
+  		height: 50vh;
+  	}
+}
+#hero-4 {
+	background: url(../img/our-top-4.jpg) fixed center;
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	@include respond(sm-phone) {
+  		height: 50vh;
+  	}
+}
